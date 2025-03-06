@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c07c6258303d54ead98a78e3f743e5, type: 3}
+  m_Name: EnemyHealthConfig
+  m_EditorClassIdentifier: 
+  _settings:
+  - Type: 0
+    BasicsHP: 10
+    MaxGrade: 100
+    MinGrade: 1
+    BasicsATK: 3
+    Speed: 5
+    prefab: {fileID: 6421906729307891411, guid: 3d72b3341526cfd41b54967c5d0555d8,
+      type: 3}
+    targetCount: 10000
+  - Type: 1
+    BasicsHP: 50
+    MaxGrade: 100
+    MinGrade: 1
+    BasicsATK: 3
+    Speed: 5
+    prefab: {fileID: 6246800745396925789, guid: 2984b8dfb5118ee469af401375c121d7,
+      type: 3}
+    targetCount: 10000
+  - Type: 2
+    BasicsHP: 100
+    MaxGrade: 100
+    MinGrade: 1
+    BasicsATK: 5
+    Speed: 3
+    prefab: {fileID: 4669362312382854194, guid: 65103d0030fb04944ae12f6c6aba6e78,
+      type: 3}
+    targetCount: 10000
+  - Type: 3
+    BasicsHP: 300
+    MaxGrade: 100
+    MinGrade: 1
+    BasicsATK: 10
+    Speed: 10
+    prefab: {fileID: 6246800745396925789, guid: 2984b8dfb5118ee469af401375c121d7,
+      type: 3}
+    targetCount: 10000
